@@ -33,7 +33,7 @@ mat-toolbar {
 
 .logo-container {
   padding: 1vw;
-  border-bottom: 1px solid #f8f8f8;
+  border-bottom: 1px solid #f8f8f885;
   min-height: 56px;
   height: 10vh !important;
 }
@@ -44,14 +44,10 @@ mat-toolbar {
   padding: 0;
   margin: 0;
 
-  a {
-    text-decoration: none;
-    color: unset;
-  }
-
   .material-icons {
     font-size: 2em;
   }
+
   li {
     list-style: none;
     display: flex;
@@ -62,8 +58,13 @@ mat-toolbar {
     height: 10vh;
     cursor: pointer;
     transition: 100ms ease-in;
+
     &:hover {
       background-color: #333;
     }
   }
+}
+
+.router-container {
+  padding: 3vh 3vw;
 }

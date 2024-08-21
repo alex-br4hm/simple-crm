@@ -1,1 +1,14 @@
-<section class="user"></section>
+<section class="user">
+  <h1>User</h1>
+  <button
+    mat-fab
+    class="add-user"
+    #tooltip="matTooltip"
+    matTooltip="Add user"
+    [matTooltipPosition]="'above'"
+    [matTooltipClass]="'custom-tooltip'"
+    (click)="openDialog()"
+  >
+    <mat-icon>add</mat-icon>
+  </button>
+</section>

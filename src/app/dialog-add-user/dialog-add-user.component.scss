@@ -1,0 +1,31 @@
+.name-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.adress-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.button-wrapper {
+  display: flex;
+  width: 94%;
+  justify-content: end;
+  gap: 0.5rem;
+  padding-bottom: 2vh;
+  button {
+    background-color: #33333370;
+    padding: 1.5vh 1vw;
+    color: whitesmoke;
+    box-shadow: none;
+    min-width: 100px;
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+  }
+}
